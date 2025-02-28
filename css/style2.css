@@ -1,0 +1,26 @@
+#container{
+    display:grid;
+    grid-template-areas:
+    "he he he he"
+    "ma ma ma ma"
+    "as as as as"
+    "fo fo fo fo"
+
+}
+header {
+    display:flex;
+    grid-area:he;
+
+}
+main{
+    display:flex;
+    grid-area:ma;
+
+}
+aside{
+    display:flex;
+    grid-area:as;
+}
+footer{
+    grid-area:fo;
+}
