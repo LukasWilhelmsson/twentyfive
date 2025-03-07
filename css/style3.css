@@ -2,25 +2,37 @@
     display:grid;
     grid-template-areas:
     "he he he he"
-    "ma ma ma ma"
-    "as as as as"
+    "ma ma as as"
+    "ma ma as as"
     "fo fo fo fo"
 
 }
-header {
+.header {
     display:flex;
     grid-area:he;
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(255, 0, 0);
 
 }
-main{
+.main{
     display:flex;
     grid-area:ma;
+    width: 70%;
+    height: 70vh;
+    background-color: rgb(255, 0, 0);
 
 }
-aside{
+.aside{
     display:flex;
     grid-area:as;
+    width: 60%;
+    height: 70vh;
+    background-color: rgb(255, 0, 0);
 }
-footer{
+.footer{
     grid-area:fo;
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(255, 0, 0);
 }

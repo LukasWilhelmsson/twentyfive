@@ -2,8 +2,8 @@
     display:grid;
     grid-template-areas:
     "he he he he"
-    "ma ma ma ma"
-    "as as as as"
+    "ma ma ma as"
+    "ma ma ma as"
     "fo fo fo fo"
 
 }
