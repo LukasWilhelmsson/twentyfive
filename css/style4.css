@@ -1,8 +1,9 @@
+
 #container{
     display:grid;
     height:300vh;
     row-gap:5vh;
-    width:200vh;
+    width:100vh;
     grid-template-areas:
     "he he he he"
     "ma ma ma ma"
@@ -10,28 +11,28 @@
     "fo fo fo fo"
 
 }
-.header {
+header {
     display:flex;
     grid-area:he;
     width: 100%;
     height: 50vh;
     background-color: black;
 }
-.main{
+main{
     display:flex;
     grid-area:ma;
     width: 50%;
     height: 60vh;
 background-color: black;
 }
-.aside{
+aside{
     display:flex;
     grid-area:as;
     width: 30%;
     height: 60vh;
     background-color: black;
 }
-.footer{
+footer{
     grid-area:fo;
     width: 100%;
     height: 50vh;
