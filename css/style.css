@@ -4,6 +4,10 @@
     height:450vh;
     row-gap:5vh;
     width:80vh;
+    background-image: url('/img/röd_fin_wayvy.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     grid-template-areas:
     "he he he he"
     "ma ma ma ma"
@@ -16,21 +20,23 @@ header {
     grid-area:he;
     width:100%;
     height: 65vh;
-    background-color: black;
+    background-color: rgb(149, 27, 27);
 
 }
 nav{
     display:flex;
-    width: 40%;
-    height: 20vh;
-    background-color: blueviolet;
+    width: 27%;
+    height: 17vh;
+    background-color: rgb(166, 45, 69);
+    border-radius:5vh;
+    padding: 5px;
 }
 main{
     display:flex;
     grid-area:ma;
     width:60%;
-    height: 160vh;
-    background-color: rgb(0, 0, 0);
+    height: 120vh;
+    background-color: rgb(208, 255, 0);
     border-radius:10vh;
     padding: 40px;
     margin-left: auto;
@@ -39,12 +45,12 @@ aside{
     display:flex;
     grid-area:as;
     width:60%;
-    height: 150vh;
+    height: 120vh;
     border-radius:10vh;
     margin-top: 50px;
     padding: 40px;
     margin-right: auto;
-    background-color: black;
+    background-color: rgb(208, 255, 0);
 }
 footer{
     grid-area:fo;
@@ -52,6 +58,19 @@ footer{
     height: 50vh;
     background-color: black;
     
+    
+}
+.image-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;/
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 300px;
 }
 .glad {
     height:32vh;
