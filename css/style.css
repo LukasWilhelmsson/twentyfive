@@ -19,17 +19,33 @@ header {
     display:flex;
     grid-area:he;
     width:100%;
-    height: 65vh;
+    height: 40vh;
     background-color: rgb(149, 27, 27);
 
 }
 nav{
     display:flex;
-    width: 27%;
-    height: 17vh;
+    width: 20%;
+    height: 32vh;
     background-color: rgb(166, 45, 69);
     border-radius:5vh;
     padding: 5px;
+}
+.navbar ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.navbar a{
+    color:rgb(28, 27, 27);
+    text-decoration: none;
+    padding: 21px;
+    display: block;
+    border-radius:5vh;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(82, 14, 14);
 }
 main{
     display:flex;
@@ -55,9 +71,9 @@ aside{
 footer{
     grid-area:fo;
     width: 100%;
-    height: 50vh;
+    height: 30vh;
     background-color: black;
-    
+    margin: 0px;
     
 }
 .image-container {
